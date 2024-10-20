@@ -83,6 +83,11 @@ img:hover{
   box-shadow: 2px 2px 2px black;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h2:hover{
   text-shadow: 1px 1px 1px grey;
 }
