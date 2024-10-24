@@ -62,27 +62,6 @@ img {
   height: auto;
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(173, 216, 230, 0.249);
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 20px;
-}
-
-.set {
-  flex: 1; 
-  margin: 10px; 
-  padding: 20px; 
-  border-radius: 8px; /* Optional rounded corners */
-  background-color: rgba(173, 216, 230, 0.5);
-}
-
-.set:hover{
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.500);
+img:hover{
+  box-shadow: 2px 2px 2px black;
 }
