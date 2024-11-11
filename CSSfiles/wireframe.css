@@ -61,11 +61,51 @@
   
   }
   
-  img {
+  .sketch{
     max-width: 100%;
     height: auto;
   }
   
-  img:hover{
+  .sketch:hover{
     box-shadow: 2px 2px 2px black;
+  }
+
+  .icons-list {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+
+  .icon-img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .icon-img:hover{
+    box-shadow: 2px 2px 2px grey;
+  }
+
+  #slogan{
+    color: green;
+    font-style: italic;
+  }
+
+  #slogan:hover{
+    text-decoration: underline;
+  }
+
+  #theme{
+    color: green;
+    text-shadow: 1px 1px 1px greenyellow;
+  }
+
+  #shoutout{
+    color: green;
+    text-align: center;
+  }
+
+  #shoutout:hover{
+    text-shadow: 1px -2px 0px greenyellow;
   }
